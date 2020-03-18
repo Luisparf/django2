@@ -7,4 +7,4 @@ def contato(request):
     return render(request, 'contato.html')
 
 def produto(request):
-    return render(request, 'produto.hmtl')
+    return render(request, 'produto.html')
