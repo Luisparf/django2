@@ -1,21 +1,25 @@
-{% load bootstrap4 %}
+{% load bootstrap4 %} <!--carrega bootstrap-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <title>Contato</title>
-    {% bootstrap_css %}
+    {% bootstrap_css %} <!-- carrega css -->
 </head>
 <body>
     <div class="container">
-        <h1>contato</h1>
-        {% bootstrap_messages %}
+        <h1 style="color:blue;text-align:center;">Contato</h1>
+        {% bootstrap_messages %} <!-- Recurso para exibir mensagens -->
 
-        <form action="{% url 'contato' %}" method="post" class="form" autocomplete="off">
-
+        <form action="{% url 'contato' %}" method="post" class="form" autocomplete="off"> <!-- para submeter com POST, atraves da url contato -->
+                {% csrf_token %} <!-- recurso de segurança do django para formularios-->
+                {% bootstrap_form form %} <!--bootstrap aplica o css no form-->
+                {% buttons %} <!--botão-->
+                        <button type="submit" class="btn btn-primary ">Enviar mensagem</button>
+                {% endbuttons %}
         </form>
     </div>
 
-{% bootstrap_javascript jquery='full' %}
+{% bootstrap_javascript jquery='full' %} <!-- incluir javascript e jquery -->
 </body>
 </html>

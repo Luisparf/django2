@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84edb39c-e573-48ba-8658-e9d5afa6b121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/core/forms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/templates/contato.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/contato.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/templates/produto.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/produto.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,17 +80,17 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="278" y="35" width="802" height="677" key="#Notifications/0.0.1366.744@0.0.1366.744" timestamp="1584554697502" />
-    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2" timestamp="1584554678526">
+    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2" timestamp="1585170278306">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2/0.0.1366.744@0.0.1366.744" timestamp="1584554678526" />
+    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2/0.0.1366.744@0.0.1366.744" timestamp="1585170278306" />
     <state x="278" y="109" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1584554685295">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="278" y="109" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.744@0.0.1366.744" timestamp="1584554685295" />
-    <state x="451" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1584554663126">
+    <state x="451" y="293" width="456" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585170256518">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="451" y="293" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.744@0.0.1366.744" timestamp="1584554663126" />
+    <state x="451" y="293" width="456" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.744@0.0.1366.744" timestamp="1585170256518" />
   </component>
 </project>
