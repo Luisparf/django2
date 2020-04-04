@@ -1,4 +1,5 @@
-{% load bootstrap4 %} <!--carrega bootstrap-->
+{% load bootstrap4 %}   <!--carrega bootstrap-->
+{% load static %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -8,9 +9,9 @@
 </head>
 <body>
     <div class="container">
-        <h1 style="color:blue;text-align:center;">Contato</h1>
+        <h1>Contato</h1>
         {% bootstrap_messages %} <!-- Recurso para exibir mensagens -->
-
+         <link rel="stylesheet" href="{% static 'css/estilos.css' %}">
         <form action="{% url 'contato' %}" method="post" class="form" autocomplete="off"> <!-- para submeter com POST, atraves da url contato -->
                 {% csrf_token %} <!-- recurso de segurança do django para formularios-->
                 {% bootstrap_form form %} <!--bootstrap aplica o css no form-->
