@@ -1,10 +1,13 @@
 from django.shortcuts import render
 from django.contrib import messages  # import para messages.sucess
 from .forms import ContatoForm, ProdutoModelForm
-
+from .models import Produto
 
 def index(request):
-    return render(request, 'index.html')
+    context = {
+        'produtos': Produto.objects.all()
+    }
+    return render(request, 'index.html', context)
 
 
 def contato(request):

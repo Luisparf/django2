@@ -2,3 +2,17 @@ h1 {
     color:#171885;
     text-align:center
 }
+
+body {
+    background-color: #8d8a99;
+}
+
+a{
+   color: #fff;
+}
+
+tbody tr:hover {
+
+   background-color: #89a18f;
+
+}
