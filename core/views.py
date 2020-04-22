@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.contrib import messages  # import para messages.sucess
 from .forms import ContatoForm, ProdutoModelForm
 from .models import Produto
@@ -28,18 +28,21 @@ def contato(request):
 
 
 def produto(request):
-    form = ProdutoModelForm(request.POST, request.FILES)  # POST para dados e FILE para as imagens (upload)
 
-    if str(request.method) == 'POST':
-        if form.is_valid(): #verifica se todos os campos foram preenchidos corretamente
-            form.save() #se form é valido, salva
-            messages.success(request, 'Produto salvo com sucesso')
-            form = ProdutoModelForm()
+    if str(request.user) != 'AnonymousUser': #se usuario esta logado e validado...
+        if str(request.method) == 'POST':
+            form = ProdutoModelForm(request.POST, request.FILES)  # POST para dados e FILE para as imagens (upload)
+            if form.is_valid(): #verifica se todos os campos foram preenchidos corretamente
+                form.save() #se form é valido, salva
+                messages.success(request, 'Produto salvo com sucesso')
+                form = ProdutoModelForm()
+            else:
+                messages.success(request, 'Erro, verifique o formulario')
         else:
-            messages.success(request, 'Erro, verifique o formulario')
+            form = ProdutoModelForm() #se request nao for do tipo POST apenas instancia um form,
+        context = {
+            'form': form #coloca num contexto,
+        }
+        return render(request, 'produto.html', context) #e renderiza
     else:
-        form = ProdutoModelForm() #se request nao for do tipo POST apenas instancia um form,
-    context = {
-        'form': form #coloca num contexto,
-    }
-    return render(request, 'produto.html', context) #e renderiza
+        return redirect('index') #se nao esta logado redireciona para index

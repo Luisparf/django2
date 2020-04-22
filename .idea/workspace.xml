@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="84edb39c-e573-48ba-8658-e9d5afa6b121" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/media/produtos/Sony-PlayStation-3-2001A-wController-L.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/produtos/Sony-PlayStation-3-2001A-wController-L.thumb.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/produtos/xbox.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/media/produtos/xbox.thumb.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/static/css/estilos.css" beforeDir="false" afterPath="$PROJECT_DIR$/core/static/css/estilos.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/core/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django2/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/django2/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586393448674</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="update form">
+      <created>1587078815150</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1587078815150</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -120,10 +124,10 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="366" y="110" width="626" height="526" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1366.744@0.0.1366.744" timestamp="1586025945213" />
-    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2" timestamp="1586393447259">
+    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2" timestamp="1587078814060">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2/0.0.1366.744@0.0.1366.744" timestamp="1586393447259" />
+    <state x="287" y="0" width="784" height="744" key="CommitChangelistDialog2/0.0.1366.744@0.0.1366.744" timestamp="1587078814060" />
     <state x="466" y="131" width="503" height="484" key="FileChooserDialogImpl" timestamp="1586986105136">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
@@ -132,10 +136,10 @@
       <screen x="0" y="0" width="1366" height="744" />
     </state>
     <state x="172" y="8" key="SettingsEditor/0.0.1366.744@0.0.1366.744" timestamp="1585958281097" />
-    <state x="278" y="109" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1586393456367">
+    <state x="278" y="109" width="802" height="528" key="Vcs.Push.Dialog.v2" timestamp="1587078821047">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
-    <state x="278" y="109" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.744@0.0.1366.744" timestamp="1586393456367" />
+    <state x="278" y="109" width="802" height="528" key="Vcs.Push.Dialog.v2/0.0.1366.744@0.0.1366.744" timestamp="1587078821047" />
     <state x="451" y="293" width="464" height="160" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585933254895">
       <screen x="0" y="0" width="1366" height="744" />
     </state>
